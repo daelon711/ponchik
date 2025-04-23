@@ -31,12 +31,16 @@ main {
   margin: 8rem auto;
 }
 
-div > img {
+main div > img {
   border: 1px rgb(171, 135, 115) dashed;
   height: 45rem;
 }
 
-div > img:hover {
+main div > img:hover {
   scale: 1.1;
   box-shadow: 1px 1px 3rem rgb(163, 103, 103);
+}
+
+button + div {
+  max-width: 100%;
 }/*# sourceMappingURL=style.css.map */
