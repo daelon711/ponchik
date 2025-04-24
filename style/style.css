@@ -34,6 +34,7 @@ main {
 main div > img {
   border: 1px rgb(171, 135, 115) dashed;
   height: 45rem;
+  margin-top: 4rem;
 }
 
 main div > img:hover {
@@ -41,6 +42,88 @@ main div > img:hover {
   box-shadow: 1px 1px 3rem rgb(163, 103, 103);
 }
 
-button + div {
-  max-width: 100%;
+.linked {
+  background-image: url("https://i.pinimg.com/736x/eb/00/ec/eb00eca8cc48c4109c4d9660bfd43717.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+form {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+form input {
+  width: 25rem;
+  height: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+input + button {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem auto;
+  border: none;
+  border-radius: 30%;
+  background-color: rgb(192, 231, 255);
+  margin-left: 1rem;
+}
+
+form + div img {
+  position: absolute;
+  right: 2rem;
+  height: 20rem;
+}
+
+form + div img:nth-child(2) {
+  height: 10rem;
+  margin-top: 15rem;
+}
+
+form + div img:nth-child(3) {
+  height: 10rem;
+  margin-top: 16rem;
+  right: 8rem;
+  height: 15rem;
+}
+
+p {
+  font-size: 2rem;
+  display: inline-block;
+  background: lightblue;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+p + button {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem auto;
+  border: none;
+  border-radius: 30%;
+  background-color: rgb(163, 100, 110);
+  margin-left: 1rem;
+  transition: 0.5s;
+}
+
+button i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #eee;
+  padding: 0.5em;
+}
+
+.light-up {
+  box-shadow: 1px 1px 20px rgb(255, 213, 0);
 }/*# sourceMappingURL=style.css.map */
